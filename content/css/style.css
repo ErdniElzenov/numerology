@@ -1,0 +1,305 @@
+body {
+    background-color: #d3ddd5;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 500;
+    width: 1440px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5rem 0.5rem;
+}
+
+p {
+    margin: 0 0 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+td{
+
+    margin: 1rem 1rem;
+    width: 151px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+
+}
+
+.title {
+    margin: 2em 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #000000;
+}
+
+
+
+
+.contacts {
+    position: sticky;
+    top: 40%;
+    left: 0px;
+}
+.contacts__info{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+  .fa {
+ 
+    padding: 20px;
+    font-size: 2em;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  .fa-telegram {
+  
+    color: rgb(255, 254, 254);
+ 
+  }
+  .fa-whatsapp {
+  
+
+     color: rgb(255, 254, 254);
+
+  }
+  .fa-instagram {
+
+    color: rgb(255, 255, 255);
+  
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.header__intro {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.header__text {
+    color: #FFFFFF;
+    padding-top: 5em;
+
+}
+
+.header__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+   
+}
+
+.header__logo {
+    color: #f8f8f8;
+}
+
+
+
+
+
+.header__content {
+    padding-top: 2rem;
+    text-indent: 1.5rem
+}
+
+.intro {
+    display: flex;
+    margin: 2em 0;
+    justify-content: space-between;
+    width: 100%;
+    height: 25em;
+}
+
+.intro__text {
+    margin-top: 1.5em;
+    max-width: 45%;
+}
+
+.intro_form-start {
+    margin: 0 0 1rem 0;
+}
+.intro_form-input {
+
+    width: 9.3em;
+    height: 3.4rem;
+    padding: 0.5rem 1.25rem;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: black;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 40px;
+}
+
+
+.intro_form-button {
+    width: 9.3em;
+    height: 3.4rem;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.intro__num {
+    font-size: 1.4rem;
+    width: 27em;
+    height: 500px;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+.intro__tt{
+    width: 100%;
+}
+
+.intro__num-title{
+   width: 100%;
+   background-color: #ffffff;
+
+}
+.intro__num-additional{
+    padding: 0.5rem 0.5rem;
+    width: 59%;
+    text-align: left;
+    border-radius: 10px;
+}
+.intro__num-temperament{
+    padding: 0.5rem 0;
+    border-radius: 10px;
+}
+.intro__table-color{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem 0.6rem;
+}
+
+.content {
+    width: 100%;
+    height: 20em;
+    border: 0.15rem solid #080808;
+}
+
+.content__box {
+    padding: 25px 25px;
+  
+}
+
+.button:hover {
+    background-color: #242627;
+}
+
+.input__email {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 7.5em 0;
+}
+
+.more{
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 800;
+    color: #f3f5f7;
+    background-color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #2E2E33;
+    z-index: 1;
+  
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+ 
+}
+.input__data-submit{
+    font-size: 1.4rem;
+    width: 45%;
+    font-weight: 300;
+    padding: 0.6rem;
+    margin: 1rem 0.125rem;
+
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.input{
+    font-size: 1.4rem;
+    width: 45%;
+    font-weight: 800;
+    padding: 0.6rem;
+    margin: 0.3rem 0.125rem;
+
+}
+.input__email-button{
+    width: 9.3em;
+    height: 3.4rem;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 40px;
+}
